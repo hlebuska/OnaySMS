@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const now = new Date();
 
-        myText.innerHTML = `ONAY! ALA<br> AT ${now.getDate()}/${now.getMonth() + 1} ${now.getHours()}:${now.getMinutes()}<br>${number},#1265,100₸<br>http://qr.tha.kz/47601`;
+        myText.innerHTML = `ONAY! ALA<br> AT ${now.getDate()}/${now.getMonth() + 1} ${now.getHours()}:${now.getMinutes()}<br>${number},#1265,100₸<br>http://qr.tha.kz/47601<br>.`;
     });
 });
 
