@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         myText.innerHTML = `ONAY! ALA<br> AT ${now.getDate()}/${now.getMonth() < 10 ? '0' + (now.getMonth() + 1) : (now.getMonth() + 1)} ${now.getHours()}:${now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes()}<br>${number},#${Math.floor(Math.random() * 9000) + 1000},100₸<br>http://qr.tha.kz/${Math.floor(Math.random() * 90000 + 10000)}<br>.`;
 
-        navigator.clipboard.writeText(`ONAY! ALA\n AT ${now.getDate()}/${now.getMonth() < 10 ? '0' + (now.getMonth() + 1) : (now.getMonth() + 1)} ${now.getHours()}:${now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes()}\n${number},#${Math.floor(Math.random() * 9000) + 1000},100₸\nhttp://qr.tha.kz/${Math.floor(Math.random() * 90000 + 10000)}\n.`);
+        navigator.clipboard.writeText(`ONAY! ALA\nAT ${now.getDate()}/${now.getMonth() < 10 ? '0' + (now.getMonth() + 1) : (now.getMonth() + 1)} ${now.getHours()}:${now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes()}\n${number},#${Math.floor(Math.random() * 9000) + 1000},100₸\nhttp://qr.tha.kz/${Math.floor(Math.random() * 90000 + 10000)}\n.`);
     });
 });
 
